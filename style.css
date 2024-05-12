@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+body {
+  background-color: #131316;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
+
+.project-box {
+  background-color: grey; /* Background color of the box */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Shadow effect */
+}
+
+/* Optional: Add hover effect */
+.project-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.1);
+}
+
+.project-box h4 {
+  text-decoration: underline;
+  
+}
